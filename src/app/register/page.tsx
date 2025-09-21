@@ -96,7 +96,7 @@ export default function RegisterPage() {
     <div className="mx-auto grid min-h-[70vh] max-w-3xl place-items-center p-4">
       <div className="w-full rounded-xl border bg-white/70 p-6 shadow-sm backdrop-blur dark:border-neutral-800 dark:bg-neutral-900/60">
         <div className="mb-6 text-center">
-          <h1 className="text-3xl font-semibold">Ro'yxatdan o'tish</h1>
+          <h1 className="text-3xl font-semibold">Ro&apos;yxatdan o&apos;tish</h1>
           <p className="mt-2 text-sm text-gray-600">Email orqali tez va xavfsiz.</p>
         </div>
         {error ? (
@@ -130,7 +130,7 @@ export default function RegisterPage() {
             </Button>
             </div>
             <p className="text-center text-sm text-gray-600">
-              Email ro'yxatda bo'lmasa, tasdiqlash kodi yuboramiz.
+              Email ro&apos;yxatda bo&apos;lmasa, tasdiqlash kodi yuboramiz.
             </p>
           </div>
         )}
@@ -164,7 +164,7 @@ export default function RegisterPage() {
               </ul>
             </div>
             <Button onClick={handleSetPassword} loading={loading} className="w-full" disabled={!passwordStrong}>
-              Parolni o'rnatish
+              Parolni o&apos;rnatish
             </Button>
           </div>
         )}

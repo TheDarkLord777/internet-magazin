@@ -43,7 +43,7 @@ export default function ForgotPasswordPage() {
               {email} manziliga parolni tiklash uchun verification code yuborildi.
             </p>
             <p className="mt-4 text-sm text-gray-500 dark:text-gray-500">
-              Email'ni tekshiring va code bilan parolni tiklang.
+              Email&apos;ni tekshiring va code bilan parolni tiklang.
             </p>
             <div className="mt-6">
               <a href="/reset-password" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">

@@ -343,7 +343,7 @@ function InfoTab({ user, setUser }: {
           />
           <div className="mt-2 text-center">
             <span className="text-xs text-gray-500 dark:text-gray-400">
-              Faqat Toshkent shahri ichidagi joylar ko'rsatiladi.
+              Faqat Toshkent shahri ichidagi joylar ko&apos;rsatiladi.
             </span>
           </div>
         </div>

@@ -43,7 +43,7 @@ export async function POST(req: Request) {
       locationToAdd = location;
       
       // Check if location already exists (for string locations)
-      if (user.locations?.some(loc => typeof loc === 'string' && loc === location)) {
+      if (user.locations?.some((loc: any) => typeof loc === 'string' && loc === location)) {
         return NextResponse.json({ error: "Location already exists" }, { status: 400 });
       }
     } else {
@@ -51,7 +51,7 @@ export async function POST(req: Request) {
       locationToAdd = location;
       
       // Check if location already exists (for object locations)
-      if (user.locations?.some(loc => typeof loc === 'object' && loc.placeId === location.placeId)) {
+      if (user.locations?.some((loc: any) => typeof loc === 'object' && loc.placeId === location.placeId)) {
         return NextResponse.json({ error: "Location already exists" }, { status: 400 });
       }
     }

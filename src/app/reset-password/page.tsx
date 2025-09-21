@@ -54,7 +54,7 @@ export default function ResetPasswordPage() {
             </p>
             <div className="mt-6">
               <a href="/login" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">
-                Login sahifasiga o'tish
+                Login sahifasiga o&apos;tish
               </a>
             </div>
           </div>
